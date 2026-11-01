@@ -1,4 +1,4 @@
-# alfa-rag-demo
+# support-rag
 
 RAG по базе знаний службы поддержки. На вопрос пользователя система находит релевантные
 страницы справки, а затем решает, что с ними делать: ответить по найденному контексту, задать
@@ -110,8 +110,8 @@ python scripts/evaluate.py --chunks chunks_websites.parquet --gold data/gold_lab
 но метрики выше на нём не воспроизводятся, он нужен только для проверки работоспособности.
 
 ```bash
-git clone https://github.com/belkovskyy/alfa-rag-demo.git
-cd alfa-rag-demo
+git clone https://github.com/belkovskyy/support-rag.git
+cd support-rag
 
 python -m venv .venv
 .venv\Scripts\activate        # Linux/macOS: source .venv/bin/activate
